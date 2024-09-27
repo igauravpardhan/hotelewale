@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap -->
+  <link rel="shortcut icon" href="asstes/download.jpeg" type="image/x-icon">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- font-awesome cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Hotel Wale</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(243, 229, 229);">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="asstes/download.jpeg" alt="logo" width="35px">
+          otlewale</a>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hotel list</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div>
+
+      <h1>
+        Welcome to Hotel Wale
+      </h1>
+      <p>Experience the perfect blend of modern amenities, elegant decor, <br> and unparalleled hospitality at [Hotel
+        Name]. Located <br>in the heart of [City], our hotel offers a relaxing <br> escape for both leisure and business
+        travelers.</p>
+      <button onclick="opencontact()"
+        style="outline: none; border: none; background-color: rgb(255, 255, 2); padding: 10px 20px; border-radius: 10px; margin: 10px;">
+        Book Your Stay</button>
+
+    </div>
+  </header>
+
+  <section id="about" class="py-4">
+    <h1 class="text-center py-4"><i class="fa-solid fa-umbrella-beach"></i> About <i
+        class="fa-solid fa-umbrella-beach"></i></h1>
+    <div class="container row" style="height: 350px;">
+      <div class="col-sm-4"  data-aos="fade-down-right"     data-aos-delay="150"  data-aos-duration="1000">
+        <img src="asstes/woman-6527238_1280.jpg" alt="hotelwale" width="100%" height="100%">
+      </div>
+      <div class="col-sm-8 pt-5 text-center " data-aos="fade-down-left"    data-aos-delay="150"  data-aos-duration="1000" >
+        <h3>Aapka perfect Hotel Yahan Hai</h3>
+        <p>we are thrilled to welcome you to a relaxing and unforgettable stay. Whether you're here for business,
+          leisure, or a special event, we’re committed to ensuring that your time with us is comfortable, memorable, and
+          seamless.
+          From the moment you step through our doors, you'll experience exceptional service, luxurious accommodations,
+          and the warmth of true hospitality. Our team is dedicated to making your stay as enjoyable as possible, and
+          we're always here to assist with any requests or needs you may have</p>
+
+      </div>
+  </section>
+
+  <section id="Features my-5">
+
+    <div class="container px-4 py-5" id="custom-cards">
+      <h1 class="text-center py-4 my-5"><i class="fa-solid fa-umbrella-beach"></i> Features <i
+          class="fa-solid fa-umbrella-beach"></i></h1>
+
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('asstes/young-woman-2151428_1280.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Hamara Hotel Sath Hai</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('asstes/trees-6556336_1280.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Our luxury hotel offers unparalleled comfort and
+                world-class customer service.</h3>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('asstes/lie-2396802_1280.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="py-5">
+      <p class="text-center"> © 2024 Copyright. || Hotelswale </p>
+    </div>
+  </footer>
+  <button class="btn"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+  <script>
+    ////////////////////////////////// top scroll ////////////////////////////////////////// 
+    const button = document.querySelector('.btn');
+
+    const displayButton = () => {
+      window.addEventListener('scroll', () => {
+        console.log(window.scrollY);
+
+        if (window.scrollY > 100) {
+          button.style.display = "block";
+        } else {
+          button.style.display = "none";
+        }
+      });
+    };
+
+    const scrollToTop = () => {
+      button.addEventListener("click", () => {
+        window.scroll({
+          top: 0,
+          left: 0,
+          behavior: 'smooth'
+        });
+        console.log(event);
+      });
+    };
+
+    displayButton();
+    scrollToTop();
+
+
+  </script>
+
+  <script>
+    function opencontact() {
+      open("contact.html")
+    }
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
